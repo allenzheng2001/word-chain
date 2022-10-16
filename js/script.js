@@ -126,7 +126,7 @@ function chain() {
         if (sessionStorage.getItem("easymode") == "true") { words_left = 10; }
         else if (sessionStorage.getItem("mediummode") == "true") { words_left = 8; }
         else if (sessionStorage.getItem("hardmode") == "true") { words_left = 5; }
-        else { words_left = 3; }
+        else {words_left = 3; }
         if (randTopicInt() == 0) {
             selectTopic("fixed", "countries"); 
             document.getElementById("topic").innerHTML = "Topic: Countries";
